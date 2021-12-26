@@ -5,13 +5,14 @@ int choice,i,item;
 int r=-1,f=-1;
 int a[max];
 
-void insert()
+int insert()
 {
 	if(((r+1)%max)==f)
 	  printf("## Queue Is Full.\n");
 	  
 	else if(f=-1)
-	{
+	{	printf("Enter Your Value To Be Insert: \n");
+		scanf("%d",&item);
 		 r=0;
 		 f=0;
 		 a[r]=item;
@@ -28,7 +29,7 @@ void insert()
 	}
 }
 
-void del()
+int del()
 {
 	if(f==-1)
 	   printf("## Queue Is Empty.");
@@ -43,7 +44,7 @@ void del()
 	}
 } 
 
-void display()
+int display()
 {
         if(f==-1)
             printf("\n## Queue Is Empty.");
@@ -59,7 +60,7 @@ void display()
 
 
 
-void main()
+int main()
 {
         printf("Simple Queue Programm.............\n");
         while(1)
@@ -83,6 +84,7 @@ void main()
                 break;
 
                 case 4:
+		return 0;
                 break;
         }
         }
