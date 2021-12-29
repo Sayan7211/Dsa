@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Sayan7211
-- 👀 I’m interested in ...coding,hacking
-- 🌱 I’m currently learning ...B.Tech
+- 👀 I’m interested in ...Coding,Hacking
+- 🌱 I’m currently learning ...B.Tech,Ethical Hacking
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
